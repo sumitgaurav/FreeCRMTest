@@ -2,13 +2,10 @@ package com.crm.qa.testcases;
 
 import java.io.IOException;
 
-import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -40,7 +37,7 @@ public class ContactsPageTest extends TestBase{
 		homePage.clickOnContactsLink();
 	}
 	
-	//Added git comment	
+		
 	@Test(priority=1)
 	public void verifyContactspageLabel(){
 		Assert.assertTrue(contactsPage.verifyContactsLabel(),"Contacts label is missing on the page");
