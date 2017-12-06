@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Application Test Automation Test suite]">
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.Analyzer.MyTransformer"/>
   </listeners>
   <test name="Free CRM Application Test cases(failed)">
     <classes>
@@ -10,21 +11,9 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="selectContactsTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Free CRM Application Test cases(failed) -->
 </suite> <!-- Failed suite [Free CRM Application Test Automation Test suite] -->
