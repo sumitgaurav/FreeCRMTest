@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.crm.qa.base.TestBase;
-import com.crm.qa.testcases.ContactsPageTest;
 
 public class ContactsPage extends TestBase{
 
