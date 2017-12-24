@@ -108,7 +108,7 @@ public class Sample {
 		*/
 		
 //		Find missing number is array list 
-		int a[]= {1,2,3,4,5,6,8,9};
+		/*int a[]= {1,2,3,4,5,6,8,9};
 		int sum=0;
 		for (int i = 0; i < a.length; i++) {
 			sum= sum+a[i];
@@ -118,6 +118,9 @@ public class Sample {
 			sum1 = sum1 + j;
 		}
 		System.out.println("Missing number is:: "+ (sum1-sum));
+		*/
+		
+//		Find duplicate strings from array string list
 		
 		
 		
